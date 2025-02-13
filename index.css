@@ -1,0 +1,54 @@
+body{
+    text-align: center; /* Centre tout le contenu du corps de la page */
+    background-color: #ffffff; /* Définit un fond blanc pour la page */
+}
+
+table{
+    width: 80%; /* Définit la largeur du tableau à 80% de la page */
+    margin: 20px auto; /* Centre le tableau horizontalement avec une marge de 20px en haut et en bas */
+    border-collapse: collapse; /* Supprime les espaces entre les bordures des cellules */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* Ajoute une ombre douce, ici elle est transparente */
+}
+
+th, td{
+    border: 1px solid #ddd; /* Ajoute une bordure fine et grise autour des cellules */
+    font-size: 16px; /* Définit la taille du texte dans les cellules */
+    font-weight: bold; /* Rend le texte en gras */
+    padding: 15px; /* Ajoute un espace intérieur pour rendre le texte plus lisible */
+}
+
+th{
+    background-color:#e8e8e8; /* Change la couleur de fond des en-têtes de colonnes */
+}
+
+/* Style pour les différentes activités */
+
+.Publicswim{ 
+    background-color: #009bcc; /* Fond bleu clair */
+    color: white; /* Texte en blanc */
+}
+
+.laneswim{ 
+    background-color:#96c21f; /* Fond vert clair */
+    color: white; /* Texte en blanc */
+}
+
+.aquacise{
+    background-color: #e65686; /* Fond rose foncé */
+    color: white; /* Texte en blanc */
+}
+
+.aquacisejog{
+    background-color: #d9006b; /* Fond rose plus foncé */
+    color: white; /* Texte en blanc */
+}
+
+.education{
+    background-color: #5fd2ca; /* Fond turquoise */
+    color: white; /* Texte en blanc */
+}
+
+.kids-swim{
+    background-color: #ed6b04; /* Fond orange */
+    color: white; /* Texte en blanc */
+}
